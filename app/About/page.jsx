@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="colortext space-y-5 tracking-wide leading-7 flex  flex-col items-start xl:p-20 xl:px-48 mobile:p-1 mobile:px-4  ">
+    <div className="colortext space-y-5 tracking-wide leading-7 flex  flex-col items-start xl:p-20 xl:px-48 mobile:p-4 mobile:px-4  ">
       <h1 className="xl:text-6xl sm:text-sm font-bold text-white ">
         About Me.
       </h1>
