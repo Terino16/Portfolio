@@ -42,7 +42,7 @@ useEffect(() => {
   }}
     >
       2.Boat Ecommerce 
-      <Link href="https://cars24-he5uf7r56-terino16.vercel.app/" target='_blank'  className='xl:text-xl colortext'>Go to site </Link>
+      <Link href="https://ecommerce-sanity-anubhav.vercel.app/" target='_blank'  className='xl:text-xl colortext'>Go to site </Link>
     </motion.h1>
    
    <motion.div 

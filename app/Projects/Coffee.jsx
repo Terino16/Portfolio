@@ -41,7 +41,7 @@ useEffect(() => {
     delay: 0.6,
   }}
     >
-      5.Coffees
+      6.Coffees
       <Link href="https://github.com/Terino16/Coffee" target='_blank'  className='xl:text-xl colortext mobile:text-sm'>Go to Github </Link>
     </motion.h1>
    
