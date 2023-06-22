@@ -10,6 +10,7 @@ import Image from 'next/image';
 import { useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
+
 const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     hidden: { opacity: 0, scale: 0 }
@@ -31,7 +32,7 @@ useEffect(() => {
   initial="hidden"
   animate={control}>
     
-    <motion.h1 className='xl:text-6xl sm:text-sm font-bold text-white'
+    <motion.h1 className='xl:text-6xl mobile:text-sm font-bold text-white'
   initial={{ opacity: 0, y: -180 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{
@@ -40,14 +41,12 @@ useEffect(() => {
     delay: 0.6,
   }}
     >
-      1. Blogs
-      <Link href="https://cars24-he5uf7r56-terino16.vercel.app/" target='_blank'  className='xl:text-xl colortext'>Go to site </Link>
+      3. Blogs
+      <Link href="https://github.com/Terino16/Blog" target='_blank'  className='xl:text-xl colortext'>Go to Github </Link>
     </motion.h1>
    
    <motion.div 
     className='flex flex-wrap space-x-4  space-y-4 items-center justify-center order-2'
-    
-
   >
    <Image
     src={blog1}
