@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import linkdin from '../../public/linkdin.webp'
-import insta from '../../public/insta.webp'
+import Instagram from '../../public/instagram.webp'
 import github from '../../public/github.webp'
 import Image from 'next/image'
 const page = () => {
@@ -18,7 +18,7 @@ const page = () => {
       <Image src={linkdin} alt="Linkdinlogo" width={25} height={25}/>
       </Link>
            <Link href="https://www.instagram.com/anubhav_160/" target='_blank' alt="sc">
-      <Image src={insta} alt="Linkdinlogo" width={25} height={25}/>
+      <Image src={Instagram} alt="Linkdinlogo" width={25} height={25}/>
       </Link>
       <Link href="https://github.com/Terino16" target='_blank' alt="sc">
       <Image src={github} alt="Linkdinlogo" width={25} height={25}/>
