@@ -35,7 +35,7 @@ const page = () => {
         <p>As a Engineer its not only enough to only build a product its also necessary to be able to sell you what you are building.
         It helps me boost my  career prospects, enhance digital marketing expertise, and provide a competitive edge in the rapidly evolving digital landscape.</p>
         <p className="text-white pt-2 ">2.Data Structures and algorithms</p>
-        <p className="pb-[50%]"> I am a 5 star on Hackerrank in problem Solving. All the more reason to hire me LOL
+        <p className="pb-[10%]"> I am a 5 star on Hackerrank in problem Solving. All the more reason to hire me LOL
         </p>
       </span>
     </div>

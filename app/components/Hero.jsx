@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <div className=" text-white w-[70%] pb-[30%]">
+    <div className=" text-white w-[70%] pb-[10%]">
      <div>
       <h1 className="text-6xl sm:text-l"> I'm Anubhav Dube</h1>
       <p class="colortext space-y-5 tracking-wide leading-7">
