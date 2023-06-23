@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 const Socials = () => {
   return (
-    <div className='flex xl:space-x-7 border border-white p-2 rounded-full w-[18%]'>
+    <div className='flex xl:space-x-7 border border-white p-2 rounded-full w-[18%] mobile:w-1/2 mobile:space-x-4'>
      <span className='bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50'>
       <Link href="https://www.linkedin.com/in/anubhav-dube-b02557236/" target='_blank' alt="sc">
       <Image src={linkdin} alt="Linkdinlogo" width={25} height={25}/>
