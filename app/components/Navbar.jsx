@@ -9,9 +9,9 @@ const Navbar = () => {
     <Link href="/" className='text-white xl:text-2xl drop-shadow-glow mobile:text-sm'>Anubhav.Dev</Link>
     </span>
     <span className='space-x-5 font-normal'>
-      <Link href="/About" className='hover:text-blue-600'>About</Link> 
-      <Link href="/Projects" className='hover:text-blue-600'>Project</Link>
-      <Link href="/Contact" className='hover:text-blue-600'>Contact</Link>
+      <Link href="/About" className='hover:text-blue-600  mobile:text-sm  xl:text-lg'>About</Link> 
+      <Link href="/Projects" className='hover:text-blue-600 mobile:text-sm xl:text-lg'>Project</Link>
+      <Link href="/Contact" className='hover:text-blue-600 mobile:text-sm xl:text-lg'>Contact</Link>
     </span>
     </div>
   )

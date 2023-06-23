@@ -8,14 +8,14 @@ const Hero = () => {
   return (
     <div className=" text-white w-[70%] pb-[10%]">
      <div>
-      <h1 className="text-6xl sm:text-l"> I'm Anubhav Dube</h1>
-      <p class="colortext space-y-5 tracking-wide leading-7">
+      <h1 className="xl:text-6xl mobile:text-lg mobile:pt-[10%] xl:pt-0 "> I'm Anubhav Dube</h1>
+      <p class="colortext xl:text-lg space-y-5 tracking-wide leading-7 mobile:text-sm">
         Your friendly neighborhood frontend developer and
         Js Engineer. I spend my days (and mostly nights) painting the
         Internet canvas with <Link href='/Projects' className="font-bold">Projects</Link> and lines of code, turning zeroes and ones
         into immersive, interactive experiences.
         </p>
-        <p className="colortext space-y-5 tracking-wide leading-7 pt-3">When  I am not coding I like to go gym or do some running . Being physically active helps me empty my mind and mostly helps me in getting ideas or 
+        <p className="colortext xl:text-lg space-y-5 tracking-wide leading-7 pt-3 mobile:text-sm">When  I am not coding I like to go gym or do some running . Being physically active helps me empty my mind and mostly helps me in getting ideas or 
        ways to solve bugs in my code. I also love boxing and MMA (Mixed Martial Arts) you know that UFC 229 made me a big fan of the sport
        My Favourite Boxer is Mike Tyson and favourite UFC Fighter is Conor McGregor. Anyways its too much about me If you wanna Chat you can contact me here   <Link href='/Contact'  className="font-bold">Contact me</Link>
       </p>
