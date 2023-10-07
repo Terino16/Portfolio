@@ -1,4 +1,4 @@
-import Socials from './components/Socials'
+
 import Hero from '@/app/components/Hero'
 
 

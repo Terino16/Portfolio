@@ -8,16 +8,9 @@ const Hero = () => {
   return (
     <div className=" text-white w-[70%] pb-[10%]">
      <div>
-      <h1 className="xl:text-6xl mobile:text-lg mobile:pt-[10%] xl:pt-0 "> I'm Anubhav Dube</h1>
-      <p class="colortext xl:text-lg space-y-5 tracking-wide leading-7 mobile:text-sm">
-        Your friendly neighborhood frontend developer and
-        Js Engineer. I spend my days (and mostly nights) painting the
-        Internet canvas with <Link href='/Projects' className="font-bold">Projects</Link> and lines of code, turning zeroes and ones
-        into immersive, interactive experiences.
-        </p>
-        <p className="colortext xl:text-lg space-y-5 tracking-wide leading-7 pt-3 mobile:text-sm">When  I am not coding I like to go gym or do some running . Being physically active helps me empty my mind and mostly helps me in getting ideas or 
-       ways to solve bugs in my code. I also love boxing and MMA (Mixed Martial Arts) you know that UFC 229 made me a big fan of the sport
-       My Favourite Boxer is Mike Tyson and favourite UFC Fighter is Conor McGregor. Anyways its too much about me If you wanna Chat you can contact me here   <Link href='/Contact'  className="font-bold">Contact me</Link>
+      <h1 className="xl:text-6xl mobile:text-lg mobile:pt-[10%] xl:pt-0"> I'm Anubhav Dube</h1>
+      <p  className="xl:text-xl font-bold text-red-500 mobile:text-sm"> Fullstack developer and OpenSource Enthusiast. </p>
+        <p className="colortext xl:text-lg space-y-5 tracking-wide leading-7 pt-3 mobile:text-sm">🚀 Welcome to my vibrant world of Full Stack Development, where I combine my coding prowess with the discipline of bodybuilding and the agility of Badminton. Just as I sculpt websites with precision, I sculpt my physique, drawing inspiration from real-life titans like David Goggins and Iman Gadzhi, and fueling my boundless curiosity for self-improvement. While I relish diving deep into the pages of books and exploring the art of finance with the gusto of a Hollywood investor, I'm equally passionate about delving into the cutting-edge realm of Defense Technology. Think of me as your visionary director, crafting web experiences that shine brighter than Hollywood stars and ensuring your digital presence is a cinematic masterpiece. Together, let's script the next tech blockbuster and embark on an epic journey where code meets creativity, and every line of code is a scene-stealer! 🌟💪 <Link href='/Contact'  className="font-bold">Contact me</Link>
       </p>
       </div>
 
